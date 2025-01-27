@@ -981,10 +981,12 @@ figcaption {
 .corner-left {
   border-top: 10px solid #fff;
   border-left: 10px solid #fff;
+  flex-flow: row;
   width: 10%;
   height: 100%;
   margin-top: -10px;
   margin-left: -20px;
+  display: flex;
   position: absolute;
   inset: 0% auto auto 0%;
 }
@@ -2741,6 +2743,22 @@ figcaption {
 .div-block-26 {
   position: absolute;
   top: 10.5px;
+}
+
+.text-block-8 {
+  width: 100%;
+  position: absolute;
+  inset: 0% auto auto 0%;
+}
+
+.text-block-9 {
+  font-size: var(--text-3);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.docu-text {
+  font-family: var(--teksten);
 }
 
 @media screen and (max-width: 991px) {
